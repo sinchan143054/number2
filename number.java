@@ -5,6 +5,9 @@ public class number {
       if (num> 0) {
          System.out.println("Number is positive");
       }
-
+      else if (num<0){
+         System.out.println("Number is negative");
+      }
+       System.out.println("Number is zero");
    }
 }
